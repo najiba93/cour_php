@@ -24,8 +24,6 @@ var_dump($_GET);
     echo "  ";
     if(isset($_GET["prix"])){
         echo $_GET["prix"];
-    }else{
-        echo "🕘 ";
     }
     echo "<br>";
 
